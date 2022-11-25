@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header {
+    background: rgb(92, 67, 99);
+    color: white;
+
+}
+
+.header_wrap {
+    display: flex;
+    align-items: center;
+
+}
+
+.header_wrap_t {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* .header_text {
+    text-size: 14px;
+} */
+
+/* main */
+main {
+    background: rgb(231, 211, 239);
+}
+
+.objective {
+    color: rgb(92, 67, 99);
+    padding: 30px;
+}
+
+.objective_text {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.experience {
+    color: rgb(92, 67, 99);
+    padding-top: 30px;
+}
+
+
+.experience_container {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+
+}
+
+h3.experience_container experience_headin {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+
+
+.experience_text {
+    padding-top: 10px;
+    padding-left: 180px;
+    /* border: 2px solid black; */
+}
+
+.skills {
+    color: rgb(92, 67, 99);
+}
+
+.skills_title {
+    padding-top: 60px;
+}
+
+.skills_text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.language {
+    color: rgb(92, 67, 99);
+}
+
+.language_title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.language_list {
+    padding-bottom: 60px;
+    padding-right: 30px;
+}
+
+.language_list,
+.footer_list {
+    list-style-type: none;
+}
+
+.form {
+    color: rgb(92, 67, 99);
+}
+
+/* form */
+.form {
+    background: rgb(243, 220, 212);
+}
+
+.form_header {
+    display: flex;
+    justify-content: center;
+}
+
+.form_title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form_block1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form_flex {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+.form_heading {
+    padding: 20px;
+}
+
+.form_block .form_input,
+.form_textarea {
+    background: rgb(243, 220, 212);
+    border: none;
+    border-bottom: solid 1px rgb(92, 67, 99);
+    color: rgb(243, 220, 212);
+    width: 350px;
+}
+
+.form_textarea {
+    width: 700px;
+    height: 20px;
+    resize: none;
+}
+
+.form_btn {
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: rgb(92, 67, 99);
+}
+
+
+/* footer */
+.footer {
+    background: rgb(92, 67, 99);
+    color: white;
+}
+
+.footer_title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(146, 119, 172);
+}
+
+
+
+.footer_item {
+    color: white;
+}
+
+a {
+    color: white;
+}
